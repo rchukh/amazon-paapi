@@ -20,26 +20,27 @@ The only different from the generated **AWSECommerceService.java** is the follow
 ### Usage
 
 1. Configure maven dependency
+
 ```xml
 <repositories>
-  <repository>
-    <id>bintray</id>
-    <url>http://dl.bintray.com/rchukh/maven</url>
-    <releases>
-      <enabled>true</enabled>
-    </releases>
-    <snapshots>
-      <enabled>false</enabled>
-    </snapshots>
-  </repository>
+	<repository>
+		<id>bintray</id>
+		<url>http://dl.bintray.com/rchukh/maven</url>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+		<snapshots>
+			<enabled>false</enabled>
+		</snapshots>
+	</repository>
 </repositories>
 
 <dependencies>
-  <dependency>
-    <groupId>com.github.rchukh.amazon</groupId>
-    <artifactId>paapi</artifactId>
-    <version>0.1</version>
-  </dependency>
+	<dependency>
+		<groupId>com.github.rchukh.amazon</groupId>
+		<artifactId>paapi</artifactId>
+		<version>0.1</version>
+	</dependency>
 </dependencies>
 ```
 
