@@ -14,6 +14,7 @@ The only different from the generated **AWSECommerceService.java** is the follow
 ### Requirements
 
 - JDK 8 (AWSHandler could easily be ported to JDK 6)
+- SLF4J and Logback
 
 -----------
 ### Usage
