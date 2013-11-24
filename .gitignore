@@ -1,6 +1,9 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+/target
+/.settings
+.classpath
+.project
+.factorypath
+.springBeans
+/src/generated
+/.idea
+amazon-paapi.iml
