@@ -17,7 +17,6 @@
         <logback.version>1.0.13</logback.version>
     </properties>
 
-
     <dependencies>
         <!-- Loggers -->
         <dependency>
@@ -61,7 +60,26 @@
                     <encoding>UTF-8</encoding>
                 </configuration>
             </plugin>
+            <plugin>
+                <artifactId>maven-source-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>attach-sources</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>bintray</id>
+            <name>bintray</name>
+            <url>https://api.bintray.com/maven/rchukh/maven/amazon-paapi</url>
+        </repository>
+    </distributionManagement>
 
 </project>
